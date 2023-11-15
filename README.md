@@ -30,10 +30,6 @@ Then install [Hardhat](https://hardhat.org/) and have it set up in your project.
 
 ![image (8)](https://github.com/cryptoade1/vc-oracle-demo/assets/88367184/a761da45-b44a-4ed7-aef1-ff693269c6c4)
 
-Then run the command to call hardhat;
-
-![image (9)](https://github.com/cryptoade1/vc-oracle-demo/assets/88367184/c98d8ec3-261f-4d01-997a-837b72d2c358)
-
 After this, deploy the smart contracts located in the `contracts` directory. 
 put `VC.sol` in the Hardhat `contracts` directory and put this in your `deploy.js`
 
@@ -130,18 +126,16 @@ Example: instead of returning the VC as bytes to the user, you can:
     - trigger smart contract using the VC content
     - integrate the VC into wallets and manage/use VCs from there
 
-**TODO:**
-
-Must haves: 
+### Must haves:
 
 - VC content must be related to your on-chain and/or web2 identities (so nothing about your driving license for instance)
 - the vc request must be triggered by the user or user-delegated service
 - VC integration and use-case elaboration
 
-Nice-to-haves:
+### Nice-to-haves:
 
 - The data in the VC is LIVE retrieved instead of statically populated
 - Highlight the privacy and/or user control during the VC integration
-- The dApp of VC use-case has a working prototype
+- The dApp of VC use case has a working prototype
 
 Please refer to https://github.com/litentry/litentry-parachain for more information if interested.
